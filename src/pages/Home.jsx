@@ -43,7 +43,7 @@ function Home() {
       <div className="row">
         {products && products.map(product => {
           return (
-            <ProductCard product={product} key={product.id}/>
+            <ProductCard product={product} key={product.id} setProducts={setProducts}/>
           )
         }) 
         }

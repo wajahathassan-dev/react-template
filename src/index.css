@@ -12,3 +12,13 @@
 a {
  text-decoration: none; 
 }
+
+.product-card-container {
+  position: relative;
+}
+
+.product-card-delete {
+  position: absolute;
+  top: 0;
+  right: 14px;
+}
